@@ -1,10 +1,11 @@
-function LabelNama(props) {
+function Labelnama(props) {
   return (
-    <div className="label-nama">
-      <label htmlFor={props.id}>{props.label}</label>
-      <input type="text" id={props.id} name={props.name} />
+    <div>
+      
+        <p>nama saya : {props.nama}</p>
+      
     </div>
   );
 }
 
-export default LabelNama;
+export default Labelnama;

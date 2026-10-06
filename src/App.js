@@ -1,16 +1,14 @@
 import './App.css';
 import Labelnama from './componenst/labelnama';
+import Labelalamat from './componenst/labelalamat';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Profile</h1>
-      
-        <Labelnama nama="Hilman Maulana"   />
-        <Labelnama nama="Andika Saputra"   />
-        <Labelnama nama="Nabil abbiyu"   />
+      <Labelnama nama="Rizky" />
+      <Labelalamat alamat="Jl. Raya No. 123" />
 
-      <p>Alamat : Kebon Jeruk</p>
     </div>
   );
 }
